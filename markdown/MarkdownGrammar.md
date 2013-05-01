@@ -26,8 +26,8 @@ inline Element:
 - em and strong : * 或 _包围
 - code : ` 包围
 - a
-    1. * \[文字\]\(url\)
-    2. * \[文字\]\(url "文字"\)
+    1. [文字](url)
+    2. [文字](url "文字")
 - img : ![Alt text][id]
 
 兼容HTML
@@ -35,4 +35,4 @@ inline Element:
 Markdown 中可以直接引用HTML标签,但
 
 - Markdown 中未定义的标签，可以直接在文档里面用HTML撰写.  
-- 一些区块元素,比如<div> <table> <pre> <p>, 须在前后加上空行。
+- 一些区块元素,比如"<div> <table> <pre> <p>"须在前后加上空
