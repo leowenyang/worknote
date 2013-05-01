@@ -24,18 +24,18 @@ JekyII 使用
 
 JekyII 基本结构
 -------------------------
- .
- | -- config.yml
- | -- _includes
- | -- _layouts
- |   |-- default.html
- |   `-- post.html
- | -- _posts
- |   | -- 2013-05-01-first-blog.md
- |   ` -- 2013-05-01-secord-blog.md
- | -- _site
- ` -- index.html
-
+     .
+     | -- config.yml
+     | -- _includes
+     | -- _layouts
+     |   |-- default.html
+     |   `-- post.html
+     | -- _posts
+     |   | -- 2013-05-01-first-blog.md
+     |   ` -- 2013-05-01-secord-blog.md
+     | -- _site
+     ` -- index.html
+    
 - _config.yml
 
 Jekyll配置文件
