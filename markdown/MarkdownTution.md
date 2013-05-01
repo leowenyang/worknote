@@ -8,8 +8,8 @@ Markdown 教程
 
 ## what problem Markdown solve
 
-1. HTML is hard and complex to write 
-2. HTML Tag is so hard to read for person
+1. HTML source code is hard and complex to write and read
+2. HTML have a beatuful show
 
 ## how Markdown solve this problem
 
