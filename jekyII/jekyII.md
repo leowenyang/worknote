@@ -54,5 +54,38 @@ JekyII 变量
     | paginator | 
 
 ### Site变量
+
+    | 变量                     | 描述
+    |--------------------------|------------------------------------------- 
+    | site.time                | 当前的时间
+    | site.posts               | 按时间逆序的文章列表 
+    | site.related_posts       | 包含最多10篇相关文章的列表
+    | site.categories.CATEGORY | 在CATEGORY分类下的文章列表 
+    | site.tags.TAG            | 拥有TAG标签文章的列表
+    | site.[CONFIGURATION_DATA]|
+
 ### Page变量
+
+    | 变量            | 描述
+    |-----------------|------------------------------------------- 
+    | page.content    | 页面中未渲染的内容
+    | page.title      | 文章的标题
+    | page.url        | 不含域名的url
+    | page.date       | 指定文章的时间 
+    | page.id         | 文章的唯一标示符
+    | page.categories | 文章隶属的分类的一个列表
+    | page.tags       | 文章的标签的列表
+    | page.next       | 按时间序的下一篇文章
+    | page.content    | 按时间序的上一篇文章
+
 ### Paginator变量 
+
+    | 变量                    | 描述
+    |-------------------------|------------------------------------------- 
+    | paginator.per_page      | 页面上文章的数量
+    | paginator.posts         | 当前页面上可用的文章
+    | paginator.total_posts   | 所有文章的数量 
+    | paginator.total_pages   | 所有页面的数量
+    | paginator.page          | 当前页面的数量
+    | paginator.previous_page | 前面的页面的数量
+    | paginator.next_page     | 后面的页面数量
