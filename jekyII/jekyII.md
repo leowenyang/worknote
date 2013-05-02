@@ -36,26 +36,8 @@ JekyII 基本结构
      | -- _site
      ` -- index.html
     
-- _config.yml
-
-Jekyll配置文件
-
-- _includes/
-
-该目录存放可以与_layouts和_posts混合、匹配并重用的文件。Liquid标签{% include file.md %}可以用于嵌入文件_includes/file.md
-
-- _layouts/
-
-该目录下存放的可以说成是你的“动态内容”。这些文件的格式很重要，它们的命名模式必须遵循 YEAR-MONTH-DATE-title.MARKUP 。每一个帖子的固定链接URL可以作弹性的调整，但帖子的发布日期和转换所使用的标记语言会根据且仅根据文件名中的相应部分来识别。
-
-- _site/
-
-这里是Jekyll用以存放最终生成站点的根路径位置。也许把它加到你的 .gitignore 列表中会是个不错的主意。
-
-- index.html及其他文件
-
-如果一个文件的头部存在YAML前置数据的部分，那么Jekyll将会自动处理转换该文件并传送到站点路径下。这对于站点的根目录或其他任意子目录下的所有 .html 、 .markdown 、 .textile 文件都适用
-
-- 其他文件/目录
-
-除了以上提到的文件之外，每一个其他的、不以下划线_开头的目录和文件都会被照原样传送到站点路径下。例如，你可以在网站根目录下面添加一个 css 目录，一个 favicon.ico 。
+    1. _config.yml Jekyll的配置文件
+    2. _includes/    include文件所在的文件夹
+    3. _layouts/     模板文件夹
+    4. _posts/       自己要发布的内容
+    5. _site/        预览时产生的文件都放在该文件夹中
