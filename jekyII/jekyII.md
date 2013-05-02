@@ -36,8 +36,23 @@ JekyII 基本结构
      | -- _site
      ` -- index.html
     
-    1. _config.yml Jekyll的配置文件
+    1. _config.yml   Jekyll的配置文件
     2. _includes/    include文件所在的文件夹
     3. _layouts/     模板文件夹
     4. _posts/       自己要发布的内容
     5. _site/        预览时产生的文件都放在该文件夹中
+
+JekyII 变量
+-------------------------
+### 全局变量
+
+    | 变量      | 描述
+    |-----------|------------------------------------------- 
+    | site      | 全站的信息+ _config.yml 文件中的配置选项
+    | page      | YAML 前置数据，url 和 content
+    | content   | 页面的子视图
+    | paginator | 
+
+### Site变量
+### Page变量
+### Paginator变量 
