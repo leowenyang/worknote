@@ -25,7 +25,7 @@ JekyII 使用
 JekyII 基本结构
 -------------------------
      .
-     | -- config.yml
+     | -- _config.yml
      | -- _includes
      | -- _layouts
      |   |-- default.html
