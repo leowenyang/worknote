@@ -34,8 +34,11 @@ JekyII 基本结构
      |   | -- 2013-05-01-first-blog.md
      |   ` -- 2013-05-01-secord-blog.md
      | -- _site
-     ` -- index.html
-    
+     | -- index.html
+     ` -- assets
+         | -- css
+         |   | -- style.css
+         ` -- javascripts
     1. _config.yml   Jekyll的配置文件
     2. _includes/    include文件所在的文件夹
     3. _layouts/     模板文件夹
