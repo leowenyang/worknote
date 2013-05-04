@@ -9,11 +9,11 @@ vim option
 -------------------------
 ### Option Type
 These options come in three forms:  
-    --------------------------------------
-    boolean   | can only be on or off
-    number    | has a numeric value
-    string    | has a string value
-    --------------------------------------
+	--------------------------------------
+	boolean   | can only be on or off
+	number    | has a numeric value
+	string    | has a string value
+	--------------------------------------
 
 vim map
 -------------------------
