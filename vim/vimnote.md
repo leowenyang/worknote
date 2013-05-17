@@ -39,7 +39,7 @@ vim map
 vim autocmd
 ------------------------
 
-autocmd [group] {event} {pat} [nested] {cmd}
+    autocmd [group] {event} {pat} [nested] {cmd}
 
     Add {cmd} to the list of commands that Vim will execute automatically on {event} for a file matching {pat}.
     Vim always adds the {cmd} after existing autocommands, so that the autocommands execute in the order in which they were given.
