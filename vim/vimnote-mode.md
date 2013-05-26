@@ -13,6 +13,7 @@ Insert Mode
 ### CTRL-X 模式
 
 CTRL-X 模式基本上是用来自动完成的.vim的自动完成可以包含当前文件、头文件、tag文件、字典文件等
+
     CTRL-x CTRL-l          整行自动完成
     CTRL-x CTRL-p/CTRL-n   在当前文本中自动完成单词
     CTRL-x CTRL-i          在头文件中查找匹配的单词
